@@ -57,8 +57,7 @@ app.use(function(err, req, res, next) {
   });
 });
 
-// I think I need this. I'm not sure
-app.post('/memes', routes.memes);
+
 
 // use express.static to get the images in the public folder
 app.use('/public', express.static(path.join(__dirname + '/public')));
