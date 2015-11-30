@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  
+block content
+  p Enter your comments:
+  form(action='/memes.jade', method='POST')
+  input(type='textarea', name='comment', placeholder='Enter your comment')
+  button(type='submit')Submit
