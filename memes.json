@@ -1,28 +1,28 @@
 [
   {
-    "name":"",
+
     "id":"0",
-    "url":"public/images/aristocat.jpg"
+    "url":"/images/aristocat.jpg"
   },
   {
-    "name":"",
+
     "id":"1",
-    "url":"public/images/codingdog.jpg"
+    "url":"/images/codingdog.png"
   },
   {
-    "name":"",
+
     "id":"2",
-    "url":"public/images/firstworldkitten.jpg"
+    "url":"/images/firstworldkitten.jpg"
   },
   {
-    "name":"",
+
     "id":"3",
-    "url":"public/images/insanitypuppy.jpg"
+    "url":"/images/insanitypuppy.jpg"
   },
   {
-    "name":"",
+
     "id":"4",
-    "url":"public/images/scumbagbrain.jpg"
-  },
+    "url":"/images/scumbagbrain.jpg"
+  }
 
 ]

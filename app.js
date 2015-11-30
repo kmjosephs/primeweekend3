@@ -7,7 +7,9 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
-var memes = require('./routes/memes.js');
+var memes = require('./routes/memes.js'); //I added this. Not sure if I need it
+
+
 
 var app = express();
 
@@ -25,6 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/memes', memes);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -65,6 +68,8 @@ app.use('/public', express.static(path.join(__dirname + '/public')));
 app.get('/', function(req, res, next){
   res.render('index.jade', {title: 'Hello World'});
 });
+
+
 //start server
 app.listen(process.env.PORT || 3000, function(){
   console.log("I'm listening")
