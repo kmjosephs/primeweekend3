@@ -1,5 +1,12 @@
 extends layout
 block content
+  h1= title
   div
     each meme in memes
-      img(src= meme.url)
+      .commentAndImage
+        img(src= meme.url)
+        p Enter your comment:
+        form.commentArea
+          textarea(name="commentBox" value="#{memes.id}")
+          input.btn(type='submit' value='Submit')
+          .printedComment

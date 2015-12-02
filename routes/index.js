@@ -1,9 +1,11 @@
 var express = require('express');
 var router = express.Router();
+var memeImages = require('../memes.json')
 
-/* GET home page. */
+/* GET memes page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  console.log('Printing memes to index.')
+  res.render('memes', {title: 'BEST MEMES EVAR!', memes:memeImages});
 });
 
 module.exports = router;

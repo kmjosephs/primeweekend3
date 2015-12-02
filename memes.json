@@ -1,28 +1,23 @@
 [
   {
-
     "id":"0",
     "url":"/images/aristocat.jpg"
   },
   {
-
     "id":"1",
     "url":"/images/codingdog.png"
   },
   {
-
     "id":"2",
     "url":"/images/firstworldkitten.jpg"
   },
   {
-
     "id":"3",
     "url":"/images/insanitypuppy.jpg"
   },
   {
 
-    "id":"4",
+  "id":"4",
     "url":"/images/scumbagbrain.jpg"
   }
-
 ]
